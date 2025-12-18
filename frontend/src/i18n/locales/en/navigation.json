@@ -1,0 +1,24 @@
+{
+  "navbar": {
+    "home": "HOME",
+    "allDoctors": "ALL DOCTORS",
+    "about": "ABOUT",
+    "contact": "CONTACT",
+    "createAccount": "Create account",
+    "myProfile": "My Profile",
+    "myAppointments": "My Appointments",
+    "logout": "Logout"
+  },
+  "footer": {
+    "company": "COMPANY",
+    "home": "Home",
+    "aboutUs": "About us",
+    "delivery": "Delivery",
+    "privacyPolicy": "Privacy policy",
+    "getInTouch": "GET IN TOUCH",
+    "phone": "Phone",
+    "email": "Email",
+    "copyright": "Copyright 2024 @ Prescripto.com - All Right Reserved.",
+    "description": "Prescripto is your trusted partner in healthcare, offering convenient doctor appointment services. We are committed to providing you with the best medical resources, making healthcare simple and accessible."
+  }
+}

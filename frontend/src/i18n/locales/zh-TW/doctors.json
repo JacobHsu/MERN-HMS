@@ -1,0 +1,16 @@
+{
+  "browse": "瀏覽專科醫生。",
+  "filters": "篩選條件",
+  "specialities": {
+    "generalPhysician": "一般內科",
+    "gynecologist": "婦產科",
+    "dermatologist": "皮膚科",
+    "pediatricians": "小兒科",
+    "neurologist": "神經科",
+    "gastroenterologist": "腸胃科"
+  },
+  "relatedDoctors": {
+    "title": "相關醫生",
+    "description": "只需瀏覽我們廣泛的可信賴醫生名單。"
+  }
+}

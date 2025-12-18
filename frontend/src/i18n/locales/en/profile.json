@@ -1,0 +1,16 @@
+{
+  "contactInformation": "CONTACT INFORMATION",
+  "emailId": "Email id:",
+  "phone": "Phone:",
+  "address": "Address:",
+  "basicInformation": "BASIC INFORMATION",
+  "gender": "Gender:",
+  "birthday": "Birthday:",
+  "genderOptions": {
+    "notSelected": "Not Selected",
+    "male": "Male",
+    "female": "Female"
+  },
+  "saveButton": "Save information",
+  "editButton": "Edit"
+}

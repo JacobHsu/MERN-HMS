@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "預約診療",
+    "titlePart2": "與值得信賴的醫生",
+    "description": "只需瀏覽我們廣泛的可信賴醫生名單，輕鬆安排您的預約。",
+    "bookButton": "預約診療"
+  },
+  "speciality": {
+    "title": "尋找專科",
+    "description": "只需瀏覽我們廣泛的可信賴醫生名單，安排您的預約，輕鬆無憂。"
+  },
+  "topDoctors": {
+    "title": "最佳醫生預約",
+    "description": "只需瀏覽我們廣泛的可信賴醫生名單。",
+    "more": "更多"
+  },
+  "banner": {
+    "title": "預約診療",
+    "subtitle": "與100多位值得信賴的醫生",
+    "createAccountButton": "建立帳號"
+  }
+}

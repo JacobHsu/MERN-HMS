@@ -1,0 +1,16 @@
+{
+  "browse": "Browse through the doctors specialist.",
+  "filters": "Filters",
+  "specialities": {
+    "generalPhysician": "General physician",
+    "gynecologist": "Gynecologist",
+    "dermatologist": "Dermatologist",
+    "pediatricians": "Pediatricians",
+    "neurologist": "Neurologist",
+    "gastroenterologist": "Gastroenterologist"
+  },
+  "relatedDoctors": {
+    "title": "Related Doctors",
+    "description": "Simply browse through our extensive list of trusted doctors."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "toast": {
+    "loginRequired": "Login to book appointment",
+    "appointmentBooked": "Appointment booked successfully",
+    "appointmentCancelled": "Appointment cancelled",
+    "profileUpdated": "Profile updated successfully",
+    "error": "Something went wrong, please try again later",
+    "success": "Operation successful"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "passwordTooShort": "Password must be at least 8 characters"
+  }
+}

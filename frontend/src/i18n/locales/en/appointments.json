@@ -1,0 +1,43 @@
+{
+  "booking": {
+    "title": "Booking slots",
+    "bookButton": "Book an appointment",
+    "appointmentFee": "Appointment fee",
+    "about": "About",
+    "address": "Address"
+  },
+  "daysOfWeek": {
+    "sun": "SUN",
+    "mon": "MON",
+    "tue": "TUE",
+    "wed": "WED",
+    "thu": "THU",
+    "fri": "FRI",
+    "sat": "SAT"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec"
+  },
+  "myAppointments": {
+    "title": "My appointments",
+    "address": "Address:",
+    "dateTime": "Date & Time:",
+    "payOnline": "Pay Online",
+    "paid": "Paid",
+    "completed": "Completed",
+    "cancelButton": "Cancel appointment",
+    "appointmentCancelled": "Appointment cancelled",
+    "appointmentPayment": "Appointment Payment"
+  }
+}

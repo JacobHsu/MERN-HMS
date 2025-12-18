@@ -1,0 +1,43 @@
+{
+  "booking": {
+    "title": "預約時段",
+    "bookButton": "預約診療",
+    "appointmentFee": "診療費用",
+    "about": "關於",
+    "address": "地址"
+  },
+  "daysOfWeek": {
+    "sun": "週日",
+    "mon": "週一",
+    "tue": "週二",
+    "wed": "週三",
+    "thu": "週四",
+    "fri": "週五",
+    "sat": "週六"
+  },
+  "months": {
+    "jan": "1月",
+    "feb": "2月",
+    "mar": "3月",
+    "apr": "4月",
+    "may": "5月",
+    "jun": "6月",
+    "jul": "7月",
+    "aug": "8月",
+    "sep": "9月",
+    "oct": "10月",
+    "nov": "11月",
+    "dec": "12月"
+  },
+  "myAppointments": {
+    "title": "我的預約",
+    "address": "地址：",
+    "dateTime": "日期和時間：",
+    "payOnline": "線上支付",
+    "paid": "已支付",
+    "completed": "已完成",
+    "cancelButton": "取消預約",
+    "appointmentCancelled": "預約已取消",
+    "appointmentPayment": "診療預約付款"
+  }
+}

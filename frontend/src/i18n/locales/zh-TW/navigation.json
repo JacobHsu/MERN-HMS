@@ -1,0 +1,24 @@
+{
+  "navbar": {
+    "home": "首頁",
+    "allDoctors": "所有醫生",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "createAccount": "建立帳號",
+    "myProfile": "我的資料",
+    "myAppointments": "我的預約",
+    "logout": "登出"
+  },
+  "footer": {
+    "company": "公司",
+    "home": "首頁",
+    "aboutUs": "關於我們",
+    "delivery": "配送",
+    "privacyPolicy": "隱私政策",
+    "getInTouch": "聯絡方式",
+    "phone": "電話",
+    "email": "電子郵件",
+    "copyright": "版權所有 2024 @ Prescripto.com - 保留所有權利。",
+    "description": "Prescripto 是您值得信賴的醫療夥伴，提供便捷的醫生預約服務。我們致力於為您提供最優質的醫療資源，讓就醫變得更加簡單。"
+  }
+}

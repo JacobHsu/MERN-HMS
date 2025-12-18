@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "Book Appointment",
+    "titlePart2": "With Trusted Doctors",
+    "description": "Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.",
+    "bookButton": "Book appointment"
+  },
+  "speciality": {
+    "title": "Find by Speciality",
+    "description": "Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free."
+  },
+  "topDoctors": {
+    "title": "Top Doctors to Book",
+    "description": "Simply browse through our extensive list of trusted doctors.",
+    "more": "more"
+  },
+  "banner": {
+    "title": "Book Appointment",
+    "subtitle": "With 100+ Trusted Doctors",
+    "createAccountButton": "Create account"
+  }
+}

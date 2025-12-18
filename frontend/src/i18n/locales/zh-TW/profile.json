@@ -1,0 +1,16 @@
+{
+  "contactInformation": "聯絡資訊",
+  "emailId": "電子郵件：",
+  "phone": "電話：",
+  "address": "地址：",
+  "basicInformation": "基本資料",
+  "gender": "性別：",
+  "birthday": "生日：",
+  "genderOptions": {
+    "notSelected": "未選擇",
+    "male": "男",
+    "female": "女"
+  },
+  "saveButton": "儲存資料",
+  "editButton": "編輯"
+}
