@@ -5,7 +5,12 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "seed": "node seedDoctors.js",
+    "check:doctors": "node checkDoctors.js",
+    "test:api": "node testAPI.js",
+    "test:cloudinary": "node testCloudinary.js",
+    "test:cloudinary:debug": "node testCloudinaryDetailed.js"
   },
   "author": "",
   "license": "ISC",

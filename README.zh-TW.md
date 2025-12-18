@@ -92,7 +92,33 @@
    JWT_SECRET=your_jwt_secret
    ```
 
-4. **啟動服務（需要 3 個終端）**
+   **預設管理員登入帳號：**
+   ```
+   Email: admin@example.com
+   Password: admin123
+   ```
+
+   **預設醫生登入帳號（執行種子資料腳本後）：**
+   ```
+   Email: [名字.姓氏]@hospital.com (例如：richard.james@hospital.com)
+   Password: doctor123
+   ```
+
+4. **建立範例醫生資料（可選但建議執行）**
+
+   執行以下指令來建立 15 位範例醫生資料：
+   ```bash
+   cd backend
+   pnpm run seed
+   ```
+
+   這會：
+   - 建立 15 位不同專科的醫生
+   - 上傳醫生大頭照至 Cloudinary
+   - 為所有醫生設定預設密碼 `doctor123`
+   - 產生格式為 `[名字.姓氏]@hospital.com` 的電子郵件
+
+5. **啟動服務（需要 3 個終端）**
 
    終端 1 - 後端：
    ```bash

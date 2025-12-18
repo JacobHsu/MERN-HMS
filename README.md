@@ -100,6 +100,12 @@ If you prefer to install and run services manually:
    Password: admin123
    ```
 
+   **Default Doctor Login (after running seed script):**
+   ```
+   Email: [firstname.lastname]@hospital.com (e.g., richard.james@hospital.com)
+   Password: doctor123
+   ```
+
    **Optional Services (can use dummy values for development):**
    - Stripe / Razorpay - Payment gateways (only needed for payment features)
 
@@ -119,7 +125,21 @@ If you prefer to install and run services manually:
    CURRENCY=INR
    ```
 
-4. **Start services (requires 3 terminals)**
+4. **Seed database with sample doctors (optional but recommended)**
+
+   Run this command to populate the database with 15 sample doctors:
+   ```bash
+   cd backend
+   pnpm run seed
+   ```
+
+   This will:
+   - Create 15 doctors with different specialties
+   - Upload their profile images to Cloudinary
+   - Set default password `doctor123` for all doctors
+   - Generate emails in format: `[firstname.lastname]@hospital.com`
+
+5. **Start services (requires 3 terminals)**
 
    Terminal 1 - Backend:
    ```bash
