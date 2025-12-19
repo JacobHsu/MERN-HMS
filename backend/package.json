@@ -7,6 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "seed": "node seedDoctors.js",
+    "seed:user": "node seedUser.js",
     "check:doctors": "node checkDoctors.js",
     "test:api": "node testAPI.js",
     "test:cloudinary": "node testCloudinary.js",
