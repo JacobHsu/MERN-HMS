@@ -8,6 +8,7 @@
     "server": "nodemon server.js",
     "seed": "node seedDoctors.js",
     "seed:user": "node seedUser.js",
+    "seed:records": "node seedMedicalRecords.js",
     "check:doctors": "node checkDoctors.js",
     "test:api": "node testAPI.js",
     "test:cloudinary": "node testCloudinary.js",
