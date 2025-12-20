@@ -1,0 +1,17 @@
+{
+  "title": "My Medical Records",
+  "loading": "Loading...",
+  "noRecords": "No medical records yet",
+  "noRecordsHint": "Your doctor will create medical records after your visit",
+  "errorLoading": "Failed to load medical records",
+  "doctor": "Doctor",
+  "followUp": "Follow-up",
+  "detailsTitle": "Medical Record Details",
+  "visitDate": "Visit Date",
+  "diagnosis": "Diagnosis",
+  "symptoms": "Symptoms",
+  "treatment": "Treatment Plan",
+  "prescription": "Prescription",
+  "doctorNotes": "Doctor's Notes",
+  "followUpDate": "Follow-up Date"
+}

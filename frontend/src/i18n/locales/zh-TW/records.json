@@ -1,0 +1,17 @@
+{
+  "title": "我的病歷",
+  "loading": "載入中...",
+  "noRecords": "尚無病歷記錄",
+  "noRecordsHint": "完成看診後，醫生會為您建立病歷",
+  "errorLoading": "無法載入病歷資料",
+  "doctor": "醫生",
+  "followUp": "回診",
+  "detailsTitle": "病歷詳情",
+  "visitDate": "看診日期",
+  "diagnosis": "診斷",
+  "symptoms": "症狀",
+  "treatment": "治療方案",
+  "prescription": "處方藥物",
+  "doctorNotes": "醫生備註",
+  "followUpDate": "追蹤回診日期"
+}

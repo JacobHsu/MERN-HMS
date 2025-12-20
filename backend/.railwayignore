@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Environment files (should be configured in Railway dashboard)
+.env.local
+.env.development
+.env.test
+
+# Testing
+coverage/
+*.test.js
+*.spec.js
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Seed and test files
+seedDoctors.js
+seedUser.js
+seedMedicalRecords.js
+checkDoctors.js
+testAPI.js
+testCloudinary.js
+testCloudinaryDetailed.js
+testMedicalRecordsAPI.js

@@ -10,10 +10,12 @@ import Dashboard from './pages/Admin/Dashboard';
 import AllAppointments from './pages/Admin/AllAppointments';
 import AddDoctor from './pages/Admin/AddDoctor';
 import DoctorsList from './pages/Admin/DoctorsList';
+import AllMedicalRecords from './pages/Admin/AllMedicalRecords';
 import Login from './pages/Login';
 import DoctorAppointments from './pages/Doctor/DoctorAppointments';
 import DoctorDashboard from './pages/Doctor/DoctorDashboard';
 import DoctorProfile from './pages/Doctor/DoctorProfile';
+import MedicalRecords from './pages/Doctor/MedicalRecords';
 
 const App = () => {
 
@@ -32,9 +34,11 @@ const App = () => {
           <Route path='/all-appointments' element={<AllAppointments />} />
           <Route path='/add-doctor' element={<AddDoctor />} />
           <Route path='/doctor-list' element={<DoctorsList />} />
+          <Route path='/all-medical-records' element={<AllMedicalRecords />} />
           <Route path='/doctor-dashboard' element={<DoctorDashboard />} />
           <Route path='/doctor-appointments' element={<DoctorAppointments />} />
           <Route path='/doctor-profile' element={<DoctorProfile />} />
+          <Route path='/medical-records' element={<MedicalRecords />} />
         </Routes>
       </div>
     </div>

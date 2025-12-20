@@ -8,8 +8,18 @@ const Login = () => {
 
   const [state, setState] = useState('Admin')
 
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const [email, setEmail] = useState('admin@example.com')
+  const [password, setPassword] = useState('admin123')
+
+  React.useEffect(() => {
+    if (state === 'Admin') {
+      setEmail('admin@example.com')
+      setPassword('admin123')
+    } else {
+      setEmail('doctor@example.com')
+      setPassword('doctor123')
+    }
+  }, [state])
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL
 
@@ -49,11 +59,11 @@ const Login = () => {
         <p className='text-2xl font-semibold m-auto'><span className='text-primary'>{state}</span> Login</p>
         <div className='w-full '>
           <p>Email</p>
-          <input onChange={(e) => setEmail(e.target.value)} value={email} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="email" placeholder='admin@example.com' required />
+          <input onChange={(e) => setEmail(e.target.value)} value={email} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="email" placeholder={state === 'Admin' ? 'admin@example.com' : 'doctor@example.com'} required />
         </div>
         <div className='w-full '>
           <p>Password</p>
-          <input onChange={(e) => setPassword(e.target.value)} value={password} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="password" placeholder='admin123' required />
+          <input onChange={(e) => setPassword(e.target.value)} value={password} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="password" placeholder={state === 'Admin' ? 'admin123' : 'doctor123'} required />
         </div>
         <button className='bg-primary text-white w-full py-2 rounded-md text-base'>Login</button>
         {
